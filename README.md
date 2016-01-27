@@ -18,7 +18,7 @@ To call the module from Python, go to the `Python` folder in this module and do:
 
 This will generate a `build` folder. Inside the folder, another folder 
 will be created which starts with `lib.`, inside of which you will find 
-the ajplanet.so file which is callable from Python. You can then move that 
+the `ajplanet.so` file which is callable from Python. You can then move that 
 file to a folder with your code and import it directly by doing 
 `import ajplanet`, and use the functions inside the module.
 
