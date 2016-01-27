@@ -12,7 +12,7 @@ Python (see below).
 Calling the module from Python
 ------------------------------
 
-To call the module from Python, go to the Python folder and do:
+To call the module from Python, go to the `Python` folder in this module and do:
 
     `python setup.py build`
 
