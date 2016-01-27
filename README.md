@@ -31,8 +31,8 @@ Python by doing:
    `ajplanet.pl_rv_array(times,gamma,K,omega,ecc,t0,P)`
 
 Where `times` is an array of times, `gamma` is the center-of-mass velocity, 
-`K` is the semi-amplitude, `omega` is the argument of periapsis, `ecc` is 
-the eccentricity of the orbit, `t0` is the time of transit center and `P`
+`K` is the semi-amplitude, `omega` is the argument of periapsis (in radians), 
+`ecc` is the eccentricity of the orbit, `t0` is the time of transit center and `P`
 is the period of the orbit. This will return radial velocities at the input 
 times with the same units as `K`.
 
