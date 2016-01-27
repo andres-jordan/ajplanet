@@ -9,6 +9,13 @@ you will find codes to:
 It also contains a Pyhton directory that interfaces the C functions so that they can be called from 
 Python (see below).
 
+Compiling the C code
+---------------------
+
+To compile the C code edit the Makefile and do:
+
+    'make'
+
 Calling the module from Python
 ------------------------------
 
