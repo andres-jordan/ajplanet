@@ -32,6 +32,16 @@ the `ajplanet.so` file which is callable from Python. You can then issue:
 or manually move that  file to a folder with your code and import it directly 
 by doing `import ajplanet`, and use the functions inside the module.
 
+You can compile and install ajplanet automatically by copying the following lines.
+
+    git clone https://github.com/andres-jordan/ajplanet.git
+    cd ajplanet
+    make
+    cd Python
+    python setup.py build
+    python setup.py install
+    cd ../../
+   
 Modelling Radial Velocities with ajplanet
 -----------------------------------------
 
